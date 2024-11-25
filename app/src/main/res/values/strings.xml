@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GuilhermeAlexandrePereiraLimaApp</string>
+    <string name="rato">Rato</string>
+    <string name="bufalo">Búfalo</string>
+    <string name="tigre">Tigre</string>
+    <string name="coelho">Coelho</string>
+    <string name="dragao">Dragão</string>
+    <string name="serpente">Serpente</string>
+    <string name="cavalo">Cavalo</string>
+    <string name="cabra">Cabra</string>
+    <string name="macaco">Macaco</string>
+    <string name="galo">Galo</string>
+    <string name="cao">Cão</string>
+    <string name="javali">Javali</string>
+
+    <!-- Características dos animais do horóscopo chinês -->
+    <string name="palavraRato">Sorrateiro</string>
+    <string name="palavraBufalo">Resistente</string>
+    <string name="palavraTigre">Instinto</string>
+    <string name="palavraCoelho">Agil</string>
+    <string name="palavraDragao">Poder</string>
+    <string name="plavraSerpente">Sabedoria</string>
+    <string name="palavraCavalo">Preparado</string>
+    <string name="palavraCabra">Força</string>
+    <string name="palavraMacaco">Inteligente</string>
+    <string name="palavraGalo">Domínio</string>
+    <string name="palavraCao">Lealdade</string>
+    <string name="palavraJavali">Determinado</string>
+
+
+</resources>

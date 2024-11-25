@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/roxo_1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaginaInicial">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textViewAnimais"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="12 animais do Horóscopo Chinês"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/white"
+        android:padding="8dp" />
+
+    <ListView
+        android:id="@+id/listViewAnimais"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/white"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/buttonAnimais"
+        android:text="Pontos de Poder dos Animais"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/buttonCadastro"
+        android:text="Cadastro de Usuário"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+</LinearLayout>

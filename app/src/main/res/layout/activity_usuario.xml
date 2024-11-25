@@ -1,0 +1,47 @@
+<!-- res/layout/activity_user_info.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/editTextDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dia de Nascimento"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextMes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mês de Nascimento"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextAno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ano de Nascimento"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor (1 a 12)"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+</LinearLayout>
